@@ -117,7 +117,7 @@ function gameEngine(){
 window.requestAnimationFrame(main);
 window.addEventListener('keydown',e=>{
     inputDir = {x:0,y:1}  //start the game
-    moveSound.play();
+    
 
     switch(e.key){
         case "ArrowUp":
